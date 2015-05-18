@@ -41,8 +41,9 @@ Good options are
 	- gnome
 	- kde
 	- openbox
+	- i3
 
-But we will install cinnamon instead.
+But we will install CINNAMON instead.
 
 	sudo pacman -S cinnamon
 
@@ -50,26 +51,28 @@ But we will install cinnamon instead.
 
 I run an installation script to quickly  get all my software after the base installation of Arch. For me this was quite a learning process, since I was a Redhat, Ubuntu, Linux Mint kind of guy over the last two decades. 
 
-The idea is to download (if you have internet connection) the i3 github files :
+The idea is to download (if you have internet connection) the github files :
 
 	sudo pacman -S git
+
 	git clone https://github.com/erikdubois/ArchCinnamon.git
 
-This folder should be copied to a hidden folder in your home directory with the name  ~/.i3
 
-Be sure to copy all the hidden files too!
+Be sure to check out all the hidden files too!
+
+It is up to you to see if you use zsh or not. I was thrown back by the great number of awesome themes.
 
 Then you can start running the above mentioned script to be found in the folder installation.
 
-	install_i3_vxx.sh
+	step_1_install_cinnamon_vx.sh
+
+Then I opt to use the network-manager so the icon in the systembar (right-bottom) works.
+
+	step_2_back_online_v1
 
 When that is done you run
 
-	keep_all_here_vx.sh
-
-The last script is my idea to have all my data in one folder. So I make some symbolic links to them. I did notice that this is not so easy with the gtk files.
-
-Give it a go because I3 deserves to be more known.
+	step_ 3_copy_config_files_v1.sh
 
 
 
@@ -77,21 +80,12 @@ Give it a go because I3 deserves to be more known.
 <img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg">
 </a>
 
+Now it is up to you to change the settings of cinnamon.
+
+Checkout system settings (effects, themes, window tiling and edge flip, ...)
 
 
-
-
-
-
-
-
-
-# C O N C L U S I O N
-
-
-
-
-Then you take it apart and write your own code.
+Then you take the script apart and write your own code.
 
 ------------------------------------
 #But that is the fun in Linux.
