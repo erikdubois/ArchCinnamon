@@ -72,17 +72,21 @@ Be sure to check out all the hidden files too!
 
 It is up to you to see if you use zsh or not. I was thrown back by the great number of awesome themes.
 
-Then you can start running the above mentioned script to be found in the folder installation.
+Then you can start running the underneath mentioned script to be found in the folder "installation".
 
 	step_1_install_cinnamon_vx.sh
 
 Then I opt to use the network-manager so the icon in the systembar (right-bottom) works.
 
-	step_2_back_online_v1
+	step_2_back_online_vx.sh
 
 When that is done you run
 
-	step_ 3_copy_config_files_v1.sh
+	step_ 3_copy_config_files_vx.sh
+
+If you like you can get some awesome themes and icons with 
+
+	step_ 4_theming_vx.sh
 
 
 
