@@ -50,7 +50,13 @@
 
 ######## A C C E S S O R I E S #########
 
-sudo pacman -S terminator 
+sudo pacman -S terminator
+sudo pacman -S gnome-screenshot
+sudo pacman -S gthumb eog
+
+#calculator
+sudo pacman -S gnome-calculator
+
 
 # sudo pacman -S unclutter ristretto
 
@@ -82,14 +88,15 @@ wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - 
 ######## G R A P H I C S       #########
 
 sudo pacman -S gimp inkscape
-#sudo pacman -S gnome-font-viewer
+sudo pacman -S gnome-font-viewer
+sudo pacman -S gpick
 
 ######## I N T E R N E T       #########
 
 sudo pacman -S firefox flashplugin transmission-gtk hexchat
 
 # activate multilib in the pacman.conf
-# sudo pacman -S skype
+sudo pacman -S skype
 
 ######## M U L T I M E D I A   #########
 
@@ -100,7 +107,7 @@ sudo pacman -S clementine
 ######## O F F I C E           #########
 
 sudo pacman -S geary
-
+sudo pacman -S libreoffice-fresh-en-GB
 
 ######## S E T T I N G S       #########
 
@@ -122,6 +129,9 @@ sudo pacman -S geary
 #packer qtcurve-gtk2 --noedit   ???
 # start the program qtconfig-qt4 
 #choose gtk+
+
+# plank
+sudo pacman -S plank
 
 
 
@@ -159,7 +169,7 @@ sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware pulseaudio pulseau
  pavucontrol
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly  gstreamer0.10-ffmpeg
 # for kazam
-#sudo pacman -S libsrtp
+
 #sudo pacman -S volumeicon
 
 
@@ -185,6 +195,7 @@ sudo pacman -S ttf-google-fonts
 
         # U T I L I T I E S #
 sudo pacman -S gnome-disk-utility
+sudo pacman -S brasero
 
         # P R I N T E R #
 
@@ -251,12 +262,16 @@ systemctl start org.cups.cupsd.service
 
 ######## A C C E S S O R I E S #########
 
-#calculator
-sudo pacman -S gnome-calculator
+
+packer screenruler
 
 
 #zsh enhancements
 packer zsh-completions --noedit
+
+#usb
+packer mintstick-git --noedit
+
 
 ######## D E V E L O P M E N T #########
 
@@ -280,6 +295,7 @@ packer google chrome --noedit
 packer spotify  --noedit
 
 packer kazam --noedit
+sudo pacman -S libsrtp
 
 ######## O F F I C E           #########
 
@@ -300,7 +316,7 @@ git clone https://github.com/horst3180/Vertex-Icons ~/.icons/Vertex-Icons
 packer evopop-gtk-theme  --noedit
 #packer zukitwo-themes  --noedit
 #packer omg-suite --noedit
-packer vertex-themes-git --noedit
+packer vertex-themes-git --noeditpacker 
 #packer ceti-3.14-theme --noedit
 #packer zoncolor-themes-pack --no-edit
 

@@ -10,8 +10,8 @@ I installed the mdm-display-manager already and enabled it.
 	sudo systemclt start mdm
 
 
-<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/i3onarch.png">
-<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/i3onarch.png" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/i3onarch.png">
+<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg">
+<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg">
 </a>
 
 
@@ -53,7 +53,7 @@ I run an installation script to quickly  get all my software after the base inst
 The idea is to download (if you have internet connection) the i3 github files :
 
 	sudo pacman -S git
-	git clone https://github.com/erikdubois/i3wmarchdark.git
+	git clone https://github.com/erikdubois/ArchCinnamon.git
 
 This folder should be copied to a hidden folder in your home directory with the name  ~/.i3
 
@@ -73,6 +73,9 @@ Give it a go because I3 deserves to be more known.
 
 
 
+<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg">
+<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg">
+</a>
 
 
 
@@ -97,3 +100,5 @@ You can do whatever <b>Y O U</b> want.
 
 Be free and share the knowledge.
 ------------------------------------
+
+
