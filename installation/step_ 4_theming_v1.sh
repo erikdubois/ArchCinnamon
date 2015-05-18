@@ -37,10 +37,12 @@
 
         # I C O N S #
 #git clone https://github.com/KotusWorks/Ardis-icon-theme.git ~/.themes/Ardis-icon-theme
+packer circle-flat-icons-git --noedit
 packer evopop-icon-theme-git  --noedit
 packer flattr-icon-theme --noedit
 packer ultra-flat-icons --noedit
 packer numix-circle-icon-theme  --noedit
+
 #git clone https://github.com/horst3180/Vertex-Icons ~/.icons/Vertex-Icons
 
 
