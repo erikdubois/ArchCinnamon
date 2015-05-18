@@ -412,6 +412,15 @@ packer simple-scan
 #sudo dd bs=4M if=/path/to/xxxxx.iso of=/dev/sdc && sync
 
 
+		# A U T O  L O G I N
+		# L O G I N   T H E M E S
+
+# should work via system settings and then ask your password but does not work for now
+# sudo mdmsetup
+# sudo cp /usr/share/mdm/defaults.conf /etc/mdm/custom.conf
+# sudo nano /etc/mdm/custom.conf
+#AutomaticLoginEnable=true
+#AutomaticLogin=erik
 
 ##############################################
 ##########   A   P   P   L   E    ############

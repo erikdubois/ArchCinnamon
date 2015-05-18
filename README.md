@@ -1,11 +1,12 @@
 # Installing Cinnamon on Arch Linux
 
-This is my configuration for Cinnamon to be used on any archlinux distribution.
+This is my configuration for Cinnamon to be used on Arch Linux.
 
 In the installation folder is all the data, explanations and scripts for you to have a great working environment.
 
 I installed the mdm-display-manager already and enabled it.
 
+	packer mdm-display-manager
 	sudo systemctl enable mdm
 	sudo systemclt start mdm
 
@@ -32,12 +33,11 @@ I started following the guide of
 
 https://wiki.archlinux.org/index.php/Beginners%27_guide
 
-After this base installation you will end up in a black screen (terminal) with no graphical environment what so ever. Then it is up to the user to choose a Desktop Environment.
+After this base installation you will end up in a black screen (terminal) with no graphical environment what so ever. Then it is up to the user to install xorg and choose a Desktop Environment.
 
 Good options are
 
 	- xfce
-	- cinnamon
 	- gnome
 	- kde
 	- openbox
@@ -46,6 +46,9 @@ Good options are
 But we will install CINNAMON instead.
 
 	sudo pacman -S cinnamon
+
+https://wiki.archlinux.org/index.php/Cinnamon
+
 
 
 <a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg">
@@ -59,7 +62,9 @@ But we will install CINNAMON instead.
 
 #2. Installation via script
 
-I run an installation script to quickly  get all my software after the base installation of Arch. For me this was quite a learning process, since I was a Redhat, Ubuntu, Linux Mint kind of guy over the last two decades. 
+At this point you have a working cinnamon with a mdm display manager.
+
+Then I run an installation script to quickly  get all my software. For me this was quite a learning process, since I was a Redhat, Ubuntu, Linux Mint kind of guy over the last two decades. 
 
 The idea is to download (if you have internet connection) the github files :
 
@@ -70,11 +75,11 @@ The idea is to download (if you have internet connection) the github files :
 
 Be sure to check out all the hidden files too!
 
-It is up to you to see if you use zsh or not. I was thrown back by the great number of awesome themes.
+It is up to you to see if you use zsh or not. I was thrown back by the great number of awesome themes and plugins.
 
 Then you can start running the underneath mentioned script to be found in the folder "installation".
 
-	step_1_install_cinnamon_vx.sh
+	step_1_install_cinnamon_software_vx.sh
 
 Then I opt to use the network-manager so the icon in the systembar (right-bottom) works.
 
