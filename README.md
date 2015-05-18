@@ -110,3 +110,6 @@ Be free and share the knowledge.
 ------------------------------------
 
 
+<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg">
+<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg">
+</a>

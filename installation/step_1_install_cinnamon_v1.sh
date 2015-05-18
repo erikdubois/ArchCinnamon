@@ -51,7 +51,8 @@
 ######## A C C E S S O R I E S #########
 
 sudo pacman -S terminator
-sudo pacman -S gnome-screenshot
+#sudo pacman -S gnome-screenshot  - too many problems
+sudo pacman -S xfce4-screenshooter
 sudo pacman -S gthumb eog
 
 #calculator
@@ -324,6 +325,8 @@ packer pamac
 
         # F O N T S #
 
+# font from linux mint
+packer ttf-noto --noedit
 packer ttf-ms-fonts --noedit
 #packer hermit --noedit
 #packer terminess-powerline-font --noedit
