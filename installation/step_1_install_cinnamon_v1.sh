@@ -25,7 +25,7 @@
 
 #======================================================================================
 #                               A R C H    A N D    C I N N A M O N
-3# 
+# 
 # Author  : Erik Dubois at http://www.erikdubois.be
 # License : Distributed under the terms of GNU GPL version 2 or later
 # 
@@ -113,23 +113,6 @@ sudo pacman -S libreoffice-fresh-en-GB
 
        # T H E M I N G #
 
-# Theme, icons, borders, cursors
-#sudo pacman -S lxappearance
-#sudo packer -S lxappearance2-git
-
-# application to choose a wallpaper
-#sudo pacman -S nitrogen
-
-# variety wallpaper changer needs feh to change the walls
-# extra changes must be made see folder installation
-#sudo pacman -S feh 
-
-# to configure qt4 X11 (spotify submenu's)
-#sudo pacman -S qt4
-#packer qtcurve-gtk2 --noedit   ???
-# start the program qtconfig-qt4 
-#choose gtk+
-
 # plank
 sudo pacman -S plank
 
@@ -141,15 +124,13 @@ sudo pacman -S plank
 
 sudo pacman -S scrot screenfetch git htop wget lm_sensors sysstat glances 
 sudo pacman -S numlockx inxi dmidecode hddtemp  net-tools archey3 mlocate hardinfo
-# mesa-demos
+
 numlockx on
-# if not already installed - xrandr - only for dual-screens to know how the screens are named
-# and set them the right way
-#sudo pacman -S xorg-xrandr
+
 # monitor the GB/TB of your harddisk
 # sudo pacman -S baobab
 
-#Monitor the partitions and format them
+# Monitor the partitions and format them
 sudo pacman -S gparted
 
 # download statistics
@@ -158,30 +139,14 @@ systemctl enable vnstat
 systemctl start vnstat
 
 # taskmanager if htop and glances is not for you
-#sudo pacman -S xfce4-taskmanager
+sudo pacman -S gnome-system-monitor
 
 # download and burn iso
-#sudo pacman -S unetbootin
+# sudo pacman -S unetbootin
 
         # S O U N D #
 sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware pulseaudio pulseaudio-alsa
-
- pavucontrol
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly  gstreamer0.10-ffmpeg
-# for kazam
-
-#sudo pacman -S volumeicon
-
-
-        # T H U N A R #
-
-# sudo pacman -S spacefm
-#sudo pacman -S thunar file-roller tumbler thunar-archive-plugin thunar-volman
-# if you want  a wastbasket in thunar you better install this
-#sudo pacman -S gvfs  # or thunar-vfs
-
-# installed via brasero
-# sudo pacman -S gvfs
 
 # better search with catfish and dependancies - in depth string search
 sudo pacman -S catfish findutils mlocate tracker strigi pinot
@@ -209,7 +174,7 @@ systemctl start org.cups.cupsd.service
 # if you want a networkmanager and applet mostly for laptop/wireless as
 # lan just works and gives no added value
 # sudo pacman -S networkmanager
-# set nm-applet to run at boot in the config file
+# this dealt with in the other script
 
 
 
@@ -227,10 +192,10 @@ systemctl start org.cups.cupsd.service
 ########################################
 
 # downloading yaourt to get packer (comes from archlinux.fr)
-#sudo pacman -S yaourt
+sudo pacman -S yaourt
 
 # now we are downloading the aur helper I like
-#yaourt packer
+yaourt packer
 
 
 
@@ -267,16 +232,18 @@ packer screenruler
 
 
 #zsh enhancements
+
 packer zsh-completions --noedit
 
 #usb
+
 packer mintstick-git --noedit
 
 
 ######## D E V E L O P M E N T #########
 
-#packer sublime-edit --noedit
 packer sublime-text-dev --noedit
+
 
 ######## E D U C A T I O N     #########
 
@@ -295,7 +262,9 @@ packer google chrome --noedit
 packer spotify  --noedit
 
 packer kazam --noedit
-sudo pacman -S libsrtp
+
+# necessary for kazam ?
+# sudo pacman -S libsrtp
 
 ######## O F F I C E           #########
 
@@ -303,31 +272,24 @@ packer focuswriter --noedit
 
 ######## S E T T I N G S       #########
 
+
+# THERE IS A SPECIFIC FILE TO DOWNLOAD THE REST
+
+
         # I C O N S #
 
-#packer ultra-flat-icons --noedit
-packer evopop-icon-theme-git  --noedit
-#packer numix-circle-icon-theme  --noedit
 git clone https://github.com/KotusWorks/Ardis-icon-theme.git ~/.themes/Ardis-icon-theme
 git clone https://github.com/horst3180/Vertex-Icons ~/.icons/Vertex-Icons
 
         # T H E M E S #
 
 packer evopop-gtk-theme  --noedit
-#packer zukitwo-themes  --noedit
-#packer omg-suite --noedit
 packer vertex-themes-git --noeditpacker 
-#packer ceti-3.14-theme --noedit
-#packer zoncolor-themes-pack --no-edit
-
-# gtk theme
-# http://gnome-look.org/content/show.php/Just-Dark?content=168025
 
         # I C O N S #
 
-#manjaro cursor theme
 packer xcursor-menda-git --noedit
-#packer xcursor-simpleandsoft --noedit
+
 
         # W A L L P A P E R #
 
@@ -341,30 +303,23 @@ packer variety --noedit
         
         # C L O U D #
 
-#packer dropbox --noedit
+packer dropbox --noedit
 #packer copy-agent --noedit
 
 
 
         # S Y S T E M  T O O L S # 
 
-# steering spotify from the keyboard G15 Logitech - volume and next/previous/stop/pause
-#packer playerctl --noedit
-
 # screenart for hardware and software
 packer alsi --noedit
 packer screenfo --noedit
 
-# if you want a program that tells to update
+# if you want a program that tells to update use pamac
 # or just type sudo pacman -Syu when you feel like it
-# packer pamac --noedit   # if not on antergos
-# execute pamac-tray in your config of i3
-# install also lxsession to be able to update and install in gui
-# sudo pacman -S lxsession
+# execute pamac-tray to have a tray applet
 
-#sudo pacman -S pamac lxsession
 
-        # T H U N A R #
+packer pamac
 
 
         # F O N T S #
@@ -378,11 +333,12 @@ packer ttf-ms-fonts --noedit
         # U T I L I T I E S #
 
 # activate multilib in the pacman.conf
-# packer teamviewer  --noedit
-#packer usb-creator --noedit
+packer teamviewer  --noedit
+
 # if using pamac you need some kind of policy kit to grant permission for updating
 # sudo pacman -S polkit
 # packer xfce-polkit-git --noedit
+
 # want to add a nice wallpaper to your grub or just change the time or...
 # https://launchpad.net/grub-customizer
 # packer grub-customizer
@@ -432,28 +388,6 @@ packer simple-scan
 #
 ###############################################################
 
-        # D U A L  S C R E E N #
-
-#Dualscreen - this changes just type xrandr and change the numbers
-# xrandr --output DVI-I-0 --auto --left-of DVI-I-3
-
-        # K E Y B O A R D #  
-
-#if keyboard not azerty put in config file
-# exec setxkbmap be 
-
-        # X P R O P #
-
-#with xprop you can find out what the class name is of a program
-#to set it floating for example
-
-        # A U T O  L O G I N #
-
-#if you want to autologin - aka at home no danger
-# https://github.com/Arakis/autologin-on-boot
-#packer autologin-on boot --noedit
-#/bin/autologin-on-boot
-
 
         # S P E E D T E S T #
 
@@ -474,16 +408,6 @@ packer simple-scan
 #sudo fdisk -l
 #sudo dd bs=4M if=/path/to/xxxxx.iso of=/dev/sdc && sync
 
-        # S A M B A #
-
-# mkdir ~/Upload
-# for mac/apple afp
-# public writable map via thunar actions
-# http://askubuntu.com/questions/101350/software-similar-to-nautilus-share-in-thunar
-# net usershare add %n %f "" Everyone:F guest_ok=y && chmod 777 %f
-# sudo pacman -S gvfs-afp
-# sudo pacman -S samba
-# packer thunar-shares-plugin --noedit
 
 
 ##############################################

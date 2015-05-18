@@ -47,6 +47,16 @@ But we will install CINNAMON instead.
 
 	sudo pacman -S cinnamon
 
+
+<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg">
+<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg">
+</a>
+
+
+
+
+
+
 #2. Installation via script
 
 I run an installation script to quickly  get all my software after the base installation of Arch. For me this was quite a learning process, since I was a Redhat, Ubuntu, Linux Mint kind of guy over the last two decades. 
