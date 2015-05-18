@@ -72,30 +72,28 @@ Then I run an installation script to quickly  get all my software. For me this w
 
 The idea is to download (if you have internet connection) the github files :
 
-	sudo pacman -S git
+	sudo pacman -S git    (if needed - normally present)
 
 	git clone https://github.com/erikdubois/ArchCinnamon.git
 
 
-Be sure to check out all the hidden files too!
-
-It is up to you to see if you use zsh or not. I was thrown back by the great number of awesome themes and plugins.
 
 Then you can start running the underneath mentioned script to be found in the folder "installation".
 
 	step_1_install_cinnamon_software_vx.sh
 
+I am using zsh because of the great number of awesome themes and plugins. Remember that you need to type this line after the script.
+Quit the terminal and restart it again via CTRL+ALT+T.
+
+	sudo chsh username -s /bin/sh
+
 Then I opt to use the network-manager so the icon in the systembar (right-bottom) works.
 
 	step_2_back_online_vx.sh
 
-When that is done you run
-
-	step_ 3_copy_config_files_vx.sh
-
 If you like you can get some awesome themes and icons with 
 
-	step_ 4_theming_vx.sh
+	step_ 3_theming_vx.sh
 
 
 

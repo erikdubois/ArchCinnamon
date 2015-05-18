@@ -34,8 +34,8 @@
 
 #======================================================================================
 
-# we started in our installation with the dhcp daemon. we are switching over to the
-# networkmanager
+# we started in our installation with the dhcp daemon. 
+# We are switching over to the networkmanager.
 
 
 sudo systemctl stop dhcpcd

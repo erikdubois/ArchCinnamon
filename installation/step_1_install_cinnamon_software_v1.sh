@@ -360,26 +360,6 @@ packer simple-scan
 #sudo nano /etc/sane.d/dll.conf
 
 
-        # U P D A T E #
-
-#update notifier
-
-# I choose pamac as notifier
-# IF you want an update manager to tell you there are updates (icontray)
-# pamac is the most complete one
-# download from https://github.com/manjaro/pamac or
-# git clone https://github.com/manjaro/pamac.git
-# go to download folder
-# Type : make
-# Type : make install
-# use pamac-tray in combination with notify-osd
-# put pamac-tray in config of i3
-# updates for repo
-# sudo pacman -Syu
-# updates for aur
-# packer -Syu --noedit
-
-
 
 
 
