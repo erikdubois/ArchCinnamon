@@ -4,6 +4,10 @@ This is my configuration for Cinnamon to be used on Arch Linux.
 
 In the installation folder is all the data, explanations and scripts for you to have a great working environment.
 
+Before I installed xorg and all its packages. Then you install cinnamon. See wiki of Arch Linux.
+
+	sudo pacman -S cinnamon
+
 I installed the mdm-display-manager already and enabled it.
 
 	packer mdm-display-manager
@@ -43,7 +47,7 @@ Good options are
 	- openbox
 	- i3
 
-But we will install CINNAMON instead.
+We will install CINNAMON this time.
 
 	sudo pacman -S cinnamon
 
@@ -60,7 +64,7 @@ https://wiki.archlinux.org/index.php/Cinnamon
 
 
 
-#2. Installation via script
+#2. Installation of the software
 
 At this point you have a working cinnamon with a mdm display manager.
 
