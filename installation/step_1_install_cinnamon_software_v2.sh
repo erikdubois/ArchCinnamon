@@ -125,6 +125,8 @@ sudo pacman -S plank
 
 sudo pacman -S scrot screenfetch git htop wget lm_sensors sysstat glances 
 sudo pacman -S numlockx inxi dmidecode hddtemp  net-tools archey3 mlocate hardinfo
+# make a keyboard shortcut to it like e.g. ctrl+alt+x
+sudo pacman -S xorg-xkill
 
 numlockx on
 
