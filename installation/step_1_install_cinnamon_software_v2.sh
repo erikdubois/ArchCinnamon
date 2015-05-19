@@ -406,12 +406,16 @@ sudo pacman -S samba
 		# A U T O  L O G I N
 		# L O G I N   T H E M E S
 
-# should work via system settings and then ask your password but does not work for now
-# sudo mdmsetup
+# sudo mdmsetup can be used as an alternative but just install gksu
+# manual installation 
 # sudo cp /usr/share/mdm/defaults.conf /etc/mdm/custom.conf
 # sudo nano /etc/mdm/custom.conf
-#AutomaticLoginEnable=true
-#AutomaticLogin=erik
+# AutomaticLoginEnable=true
+# AutomaticLogin=erik
+# the login window in system setting will not work UNLESS you install gksu
+sudo pacman -S gksu
+
+
 
 ##############################################
 ##########   A   P   P   L   E    ############
