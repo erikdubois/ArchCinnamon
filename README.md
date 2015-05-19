@@ -95,7 +95,7 @@ If you like you can get some awesome themes and icons with
 
 	step_ 3_theming_vx.sh
 
-
+A specific script for samba (sharing of maps on your home network) if you need it.
 
 <a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg">
 <img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg">
