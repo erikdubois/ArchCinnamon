@@ -105,14 +105,14 @@ Now it is up to you to change the settings of cinnamon.
 Checkout system settings (effects, themes, window tiling and edge flip, ...)
 
 
-Then you take the script apart and write your own code.
+Then you take the script apart and you write your own code.
 
 ------------------------------------
 #But that is the fun in Linux.
 
 You can do whatever <b>Y O U</b> want.
 
-Be free and share the knowledge.
+Share the knowledge.
 ------------------------------------
 
 
