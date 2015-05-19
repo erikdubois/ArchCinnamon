@@ -436,6 +436,18 @@ sudo usermod -a -G sambashare erik
 sudo pacman -S gksu
 
 
+# R E M E M B E R
+
+# changed the user to be in different groups
+
+# normal groups in archlinux are
+
+# wheel storage power wheel 
+
+# added this during setup
+
+# mdm users uuid
+
 
 ##############################################
 ##########   A   P   P   L   E    ############
