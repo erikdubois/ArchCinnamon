@@ -14,11 +14,10 @@ I installed the mdm-display-manager already and enabled it.
 	sudo systemctl enable mdm
 	sudo systemclt start mdm
 
+
+
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg)
 
-<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg">
-<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg">
-</a>
 
 
 
@@ -56,11 +55,8 @@ https://wiki.archlinux.org/index.php/Cinnamon
 
 
 
-<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg">
-<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg">
-</a>
 
-
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg)
 
 
 
@@ -98,9 +94,11 @@ If you like you can get some awesome themes and icons with
 
 A specific script for samba (sharing of maps on your home network) if you need it.
 
-<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg">
-<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg">
-</a>
+
+
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg)
+
+
 
 Now it is up to you to change the settings of cinnamon.
 
@@ -118,6 +116,5 @@ Be free and share the knowledge.
 ------------------------------------
 
 
-<a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg">
-<img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg">
-</a>
+
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg)
