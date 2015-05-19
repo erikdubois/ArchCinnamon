@@ -125,6 +125,8 @@ sudo pacman -S plank
 
 sudo pacman -S scrot screenfetch git htop wget lm_sensors sysstat glances 
 sudo pacman -S numlockx inxi dmidecode hddtemp  net-tools archey3 mlocate hardinfo
+# reuired by inxi
+sudo pacman -S mesa-demos  
 # make a keyboard shortcut to it like e.g. ctrl+alt+x
 sudo pacman -S xorg-xkill
 
@@ -368,14 +370,30 @@ packer simple-scan
         # S A M B A #
 
 # mkdir ~/Upload
-# for mac/apple afp
-# public writable map via thunar actions
 # http://askubuntu.com/questions/101350/software-similar-to-nautilus-share-in-thunar
 # net usershare add %n %f "" Everyone:F guest_ok=y && chmod 777 %f
-# sudo pacman -S gvfs-afp
 sudo pacman -S samba
-# packer thunar-shares-plugin --noedit
+sudo cp  /etc/samba/smb.conf.default /etc/samba/smb.conf
+sudo systemctl enable smbd.service
+sudo systemctl start smbd.service
+sudo systemctl enable nmbd.service
+sudo systemctl start nmbd.service
+sudo smbpasswd -a erik
+sudo pacman -S nemo-share
 
+#access samba share windows
+sudo pacman -S gvfs-smb
+#access samba share mac
+sudo pacman -S gvfs-afp
+
+sudo mkdir -p /var/lib/samba/usershare
+sudo groupadd sambashare
+sudo chown root:sambashare /var/lib/samba/usershare
+sudo chmod 1770 /var/lib/samba/usershare
+sudo usermod -a -G sambashare erik
+
+# sudo systemctl restart ... if you run into trouble
+# testparm will check the conf file for errors
 
 
 ###############################################################
