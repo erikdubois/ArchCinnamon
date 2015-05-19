@@ -14,6 +14,7 @@ I installed the mdm-display-manager already and enabled it.
 	sudo systemctl enable mdm
 	sudo systemclt start mdm
 
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg)
 
 <a target="_blank" href="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg">
 <img style="max-width:100%;" data-canonical-src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg" alt="alt tag" src="http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg">
