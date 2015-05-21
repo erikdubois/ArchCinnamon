@@ -94,6 +94,10 @@ If you like you can get some awesome themes and icons with
 
 A specific script for samba (sharing of maps on your home network) if you need it.
 
+I am going to locate all my themes and icons in one place for use on Arch and Debian based distro's.
+
+https://github.com/erikdubois/themes-icons-pack
+
 
 
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg)
