@@ -101,6 +101,10 @@ The smb script is to install samba or the way to share folders and files between
     ./step_6_samba_vx.sh
 
 
+I am going to locate all my themes and icons in one place for use on Arch and Debian based distro's.
+
+https://github.com/erikdubois/themes-icons-pack
+
 
 
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg)
