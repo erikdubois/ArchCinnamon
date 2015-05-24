@@ -76,11 +76,6 @@ Then I run an installation script to quickly  get all my software. You can find 
 
 	./step_2_install_cinnamon_software_vx.sh
 
-I am using zsh because of the great number of awesome themes and plugins. Remember that you need to type this line after the script.
-
-Quit the terminal and restart it again via CTRL+ALT+T.
-
-	sudo chsh username -s /bin/sh
 
 Then I opt to use the network-manager so the icon in the systembar (right-bottom) works.
 
@@ -90,10 +85,19 @@ If you like you can get some awesome themes and icons with
 
 	./step_ 4_theming_vx.sh
 
+I am going to locate all my themes and icons in one place for use on Arch and Debian based distro's.
+
+https://github.com/erikdubois/themes-icons-pack
 
 The zsh script is an alternative to bash more colourfull (>100 themes) and more plugins then you ever need.
 
     ./step_5_zsh_vx.sh
+
+I am using zsh because of the great number of awesome themes and plugins. Remember that you need to type this line after the script.
+
+Quit the terminal and restart it again via CTRL+ALT+T.
+
+	sudo chsh username -s /bin/sh
 
 
 The smb script is to install samba or the way to share folders and files between computers if you need it.
@@ -101,9 +105,7 @@ The smb script is to install samba or the way to share folders and files between
     ./step_6_samba_vx.sh
 
 
-I am going to locate all my themes and icons in one place for use on Arch and Debian based distro's.
 
-https://github.com/erikdubois/themes-icons-pack
 
 
 
