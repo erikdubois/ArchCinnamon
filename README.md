@@ -72,14 +72,22 @@ But you can as well continue in the terminal. That's up to you.
 
 If you rebooted and you are not online, there is a script called step_3_back_online for you to run.
 
+
+
+
 Then I run an installation script to quickly  get all my software. You can find it in the folder "installation".
 
 	./step_2_install_cinnamon_software_vx.sh
 
 
+
+
 Then I opt to use the network-manager so the icon in the systembar (right-bottom) works.
 
 	./step_3_back_online_vx.sh
+
+
+
 
 If you like you can get some awesome themes and icons with 
 
@@ -89,15 +97,20 @@ I am going to locate all my themes and icons in one place for use on Arch and De
 
 https://github.com/erikdubois/themes-icons-pack
 
+
+
+
 The zsh script is an alternative to bash more colourfull (>100 themes) and more plugins then you ever need.
 
     ./step_5_zsh_vx.sh
 
 I am using zsh because of the great number of awesome themes and plugins. Remember that you need to type this line after the script.
 
-Quit the terminal and restart it again via CTRL+ALT+T.
+Quit the terminal and restart it again via CTRL+ALT+T to activate zsh.
 
 	sudo chsh username -s /bin/sh
+
+
 
 
 The smb script is to install samba or the way to share folders and files between computers if you need it.
