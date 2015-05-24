@@ -52,7 +52,7 @@ This folder will become your base of installation.
 
 
 
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg)
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg)
 
 
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg)
@@ -143,4 +143,4 @@ Share the knowledge.
 
 
 
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg)
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg)
