@@ -73,10 +73,10 @@ This folder will become your base of installation.
 
 
 
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon4.jpg)
+![Screenshots](http://i.imgur.com/B4AmnQR.jpg)
 
 
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon3.jpg)
+![Screenshots](http://i.imgur.com/txkHk4F.jpg)
 
 
 
@@ -143,7 +143,7 @@ The smb script is to install samba or the way to share folders and files between
 
 
 
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon21.jpg)
+![Screenshots](http://i.imgur.com/qfgQ9kG.jpg)
 
 
 
@@ -164,4 +164,4 @@ Share the knowledge.
 
 
 
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/archcinnamon12.jpg)
+![Screenshots](http://i.imgur.com/bA488XD.jpg)
