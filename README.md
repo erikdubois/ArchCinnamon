@@ -4,6 +4,10 @@ This is my configuration for Cinnamon to be used on Arch Linux.
 
 In the installation folder is all the data, explanations and scripts for you to have a great working environment.
 
+Sardi v 7.2.9 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+
+![Screenshots](http://i.imgur.com/T2GzY5y.png)
+
 
 # A R C H L I N U X 
 ----------------------- 
