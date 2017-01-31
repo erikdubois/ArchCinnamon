@@ -50,7 +50,7 @@ name='firefox'
 
 [custom-keybindings/custom12]
 binding=['<Primary><Alt>w']
-command='subl'
+command='subl3'
 name='sublime text'
 
 [custom-keybindings/custom20]
