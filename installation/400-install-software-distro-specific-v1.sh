@@ -24,7 +24,7 @@ sudo pacman -S noto-fonts --noconfirm --needed
 
 #file manager
 
-sudo pacman -S nemo-share --noconfirm --needed
+sudo pacman -S nemo-share tumbler --noconfirm --needed
 
 
 echo "################################################################"
