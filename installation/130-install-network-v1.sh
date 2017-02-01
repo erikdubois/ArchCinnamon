@@ -15,6 +15,8 @@ set -e
 
 sudo pacman -S networkmanager --noconfirm --needed
 sudo pacman -S network-manager-applet --noconfirm --needed
+#next line will install ifconfig command
+sudo pacman -S net-tools --noconfirm --needed
 sudo systemctl enable NetworkManager.service
 sudo systemctl start NetworkManager.service
 
