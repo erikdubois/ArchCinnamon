@@ -12,23 +12,23 @@
 ##################################################################################################################
 
 
-# cleaning tmp
-[ -d /tmp/sardi ] && rm -rf /tmp/sardi
 
-# if there is no hidden folder then make one
-[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
+#https://github.com/andreisergiu98/arc-flatabulous-theme
 
-wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
-mkdir /tmp/sardi
-tar -zxf /tmp/sardi.tar.gz -C /tmp/sardi
-rm /tmp/sardi.tar.gz
-cp -rf /tmp/sardi/* ~/.icons/
+rm -rf /tmp/arc-flatabulous-theme
 
-# cleaning tmp
-[ -d /tmp/sardi ] && rm -rf /tmp/sardi
+#sudo apt-get install -y autoconf automake pkg-config libgtk-3-dev git
+sudo eopkg it -y autoconf automake pkg-config libgtk-3-devel m4 make
 
+git clone https://github.com/andreisergiu98/arc-flatabulous-theme  /tmp/arc-flatabulous-theme
+cd /tmp/arc-flatabulous-theme
+./autogen.sh --prefix=/usr
+sudo make install
+#sudo make uninstall
 
+# cleanup
+rm -rf /tmp/arc-flatabulous-theme
 
 echo "################################################################"
-echo "###################    icons sardi done   ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"

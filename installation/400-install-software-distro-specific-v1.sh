@@ -12,7 +12,7 @@
 ##################################################################################################################
 
 echo "################################################################"
-echo "#########         distro specific software      ################"
+echo "#########   distro specific software installed  ################"
 echo "################################################################"
 
 #Fonts
@@ -24,7 +24,7 @@ sudo pacman -S noto-fonts --noconfirm --needed
 
 #file manager
 
-sudo pacman -S nemo-share tumbler nemo-fileroller --noconfirm --needed
+sudo pacman -S nemo nemo-share nemo-fileroller --noconfirm --needed
 
 # extra extensions to compare files if needed install it
 # packer -S nemo-compare
