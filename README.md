@@ -11,7 +11,7 @@ In the installation folder is all the data, explanations and scripts for you to 
 
 ![Screenshots](http://i.imgur.com/utUeSKo.jpg)
 
-![Screenshots](http://i.imgur.com/utUeSKo.jpg)
+![Screenshots](http://i.imgur.com/6BUGjYF.jpg)
 
 
 
