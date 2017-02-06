@@ -30,11 +30,6 @@ More info can be found on http://erikdubois.be
 
 ![Screenshots](http://i.imgur.com/B4AmnQR.jpg)
 
-![Screenshots](http://i.imgur.com/txkHk4F.jpg)
-
-![Screenshots](http://i.imgur.com/qfgQ9kG.jpg)
-
-![Screenshots](http://i.imgur.com/bA488XD.jpg)
 
 
 #Tutorials
