@@ -17,6 +17,7 @@ Plank themes at [Github](https://github.com/erikdubois/plankthemes)
 More info can be found on http://erikdubois.be
 
 
+
 #Screenshots
 
 
@@ -27,8 +28,6 @@ More info can be found on http://erikdubois.be
 ![Screenshots](http://i.imgur.com/6BUGjYF.jpg)
 
 ![Screenshots](http://i.imgur.com/T2GzY5y.png)
-
-![Screenshots](http://i.imgur.com/B4AmnQR.jpg)
 
 
 
